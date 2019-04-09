@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  margin: 0;
+  color: #333;
+  background-color: #eee;
+}
+
+a {
+  border-bottom: 1px solid darkblue;
+  color: darkblue;
+  text-decoration: none;
+}
+
+.selected {
+  color: green;
+}
+
+.selected::after {
+  content: '\2713'
+}
+
+label {
+  display: block;
+}
